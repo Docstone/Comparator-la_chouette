@@ -17,6 +17,17 @@
   flex-direction: column;
 }
 
+.links{
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.links a{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .img-size1{
     height: 340px;
     width: 1092px;
@@ -150,8 +161,10 @@ function initComparisons() {
 </script>
 </head>
 <body>
-    <a href="index.html">Page Accueil</a>
-    <a href="contact.html">Page Contact</a>
+    <div class="links">
+      <a href="index.html">Page Accueil</a>
+      <a href="contact.html">Page Contact</a>
+    </div>
     <div class="flex-center">
       <h1>Comparaison des éléments</h1>
       <p>Cliquez sur le slider et balayer l'image pour comparer</p>
@@ -174,8 +187,10 @@ function initComparisons() {
         </div>
       </div>
      </div> 
-     <a href="index.html">Page Accueil</a>
-     <a href="contact.html">Page Contact</a>
+     <div class="links">
+       <a href="index.html">Page Accueil</a>
+       <a href="contact.html">Page Contact</a>
+     </div>
 
 <script>
 /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/

@@ -17,6 +17,17 @@
   flex-direction: column;
 }
 
+.links{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.links a{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .img-size1{
     height: 450px;
     width: 990px;
@@ -195,11 +206,13 @@ function initComparisons() {
 </script>
 </head>
 <body>
-  <a href="index.html">Page Accueil</a>
-  <a href="contact.html">Page Contact</a>
+  <div class="links">
+    <a href="index.html">Page Accueil</a>
+    <a href="contact.html">Page Contact</a>
+  </div>
     <div class="flex-center">
       <h1>Comparaison du contraste des éléments</h1>
-      <p>Le contenu textuel de certains elements change dans la <a href="https://docstone.github.io/La-Chouette-Agence/">version finale</a></p>
+      <p>Vous pouvez consulter la <a href="https://docstone.github.io/La-Chouette-Agence/">version finale</a> ainsi que la <a href="https://docstone.github.io/La-chouette-starting/">version de départ</a></p>
       <p>Cliquez sur le slider et balayer l'image pour comparer</p>
       <h2>Navigation et Bannière</h2>
       <div class="img-comp-container height1 border">
@@ -265,9 +278,11 @@ function initComparisons() {
         </div>
       </div>
     </div>
-
-    <a href="index.html">Page Accueil</a>
-    <a href="contact.html">Page Contact</a>
+    
+    <div class="links">
+      <a href="index.html">Page Accueil</a>
+      <a href="contact.html">Page Contact</a>
+    </div>
 <script>
 /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
 initComparisons();
